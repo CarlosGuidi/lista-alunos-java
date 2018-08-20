@@ -1,5 +1,6 @@
 package br.com.industrialararaquara.listaalunos;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -33,6 +34,10 @@ public class ListaAlunosActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ListaAlunosActivity.this, "Funcionou!!!", Toast.LENGTH_SHORT).show();
+
+                Intent vaiParaTelaFormulario = new Intent(ListaAlunosActivity.this, FormularioActivity.class);
+                startActivity(vaiParaTelaFormulario);
+
             }
         });
 

@@ -37,12 +37,6 @@
         android:layout_gravity="center"
         android:id="@+id/nota"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Salvar"
-        android:id="@+id/btn_salvar"/>
-
 </LinearLayout>
 
 </ScrollView>
